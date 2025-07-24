@@ -412,11 +412,11 @@
       </div>
       <!-- content -->
       <div>
-        <div class="hero min-h-screen">
+        <div class="hero ">
           <div class="hero-content flex-col lg:flex-row-reverse">
             <!-- right-content form -->
-            <div class="  flex-1">
-              <form class="space-y-7">
+            <div class=" flex-1 ">
+              <form class="space-y-7 poppins ">
 
                 <input class="input text-base rounded-lg h-20 w-full bg-[#F3F3F3] border-0 outline-none" type="text" placeholder="Your Name">
                 <input class=" rounded-lg text-base input h-20 w-full bg-[#F3F3F3] outline-none" type="email" name="" id=""
@@ -429,10 +429,10 @@
               </form>
             </div>
             <!-- box-content -->
-            <div class="grid gap-4 grid-cols-1 md:grid-cols-2 flex-1">
+            <div class="grid gap-4 grid-cols-1 md:grid-cols-2 flex-1  ">
               <!-- 1 -->
 
-              <div class="card bg-[#F3F3F3] w-72 h-72 shadow-sm">
+              <div class="card bg-[#F3F3F3] lg:w-auto w-72 h-72 shadow-sm">
                 <figure class="px-10 pt-10">
                   <img src="./images/location.png" alt="Shoes" class="rounded-xl" />
                 </figure>
@@ -444,7 +444,7 @@
                 </div>
               </div>
               <!-- 2 -->
-              <div class="card bg-[#F3F3F3] w-72 h-72 shadow-sm">
+              <div class="card bg-[#F3F3F3] lg:w-auto w-72 h-72 shadow-sm">
                 <figure class="px-10 pt-10">
                   <img src="./images/call.png" alt="Shoes" class="rounded-xl" />
                 </figure>
@@ -456,7 +456,7 @@
                 </div>
               </div>
               <!-- 3 -->
-              <div class="card bg-[#F3F3F3] w-72 h-72 shadow-sm">
+              <div class="card bg-[#F3F3F3] lg:w-auto w-72 h-72 shadow-sm">
                 <figure class="px-10 pt-10">
                   <img src="./images/email.png" alt="Shoes" class="rounded-xl" />
                 </figure>
@@ -468,7 +468,7 @@
                 </div>
               </div>
               <!-- 4 -->
-              <div class="card bg-[#F3F3F3] w-72 h-72 shadow-sm">
+              <div class="card bg-[#F3F3F3] lg:w-auto w-72 h-72 shadow-sm">
                 <figure class="px-10 pt-10">
                   <img src="./images/time.png" alt="Shoes" class="rounded-xl" />
                 </figure>
@@ -484,9 +484,51 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> 
   </main>
-  <footer></footer>
+  <!-- Footer -->
+ <footer class="footer sm:footer-horizontal  bg-[#111111] text-white py-20 px-10">
+  <div class="footer grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:w-[1280px]  mx-auto  place-content-center">
+      <nav>
+    
+      <img class="mb-10" src="./images/logo.png" alt="">
+   
+    <p class="poppins text-base text-start">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+  </nav>
+  <nav>
+    <h6 class="mb-10 font-extrabold text-2xl eb-garamond">Usefull Link</h6>
+     <a class="link link-hover poppins text-base">Home</a>
+    <a class="link link-hover poppins text-base">About us</a>
+      <a class="link link-hover poppins text-base">Cases</a>
+      <a class="link link-hover poppins text-base">Blog</a>
+    <a class="link link-hover poppins text-base">Contact Us</a>
+    
+  </nav>
+  <nav> 
+    <h6 class="mb-10 eb-garamond font-extrabold text-2xl">Contact Now</h6>
+    <a class="link link-hover  text-base poppins">555 4th 5t NW, Washington <br>
+DC 20530, United States</a>
+    <a class="link link-hover text-base poppins">+88 01750 000 000 <br>
++88 01750 000 000</a>
+    <a class="link link-hover text-base text-[#CFCFCF] poppins">info@gmail.com <br>
+info@gmail.com</a>
+  </nav>
+  <form>
+    <h6 class="mb-10 text-2xl text-white eb-garamond font-extrabold">Subscribe</h6>
+    <p class="poppins text-base ">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+    <fieldset class="w-auto">
+      
+      <div class="join">
+        <input
+          type="email"
+          placeholder="Email Address"
+          class="input text-black text-base poppins rounded-l-lg h-16  join-item border-0 outline-none" />
+        <button class="btn text-3xl rounded-r-lg w-20 h-16 bg-primary text-white join-item"><i class="fa-solid fa-location-arrow "></i></button>
+      </div>
+    </fieldset>
+  </form>
+  </div>
+</footer>
 </body>
 
 </html>
